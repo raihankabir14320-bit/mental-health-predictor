@@ -1,20 +1,19 @@
 ---
 title: Mental Health Predictor
-emoji: 🚀
+emoji: 🧠
 colorFrom: red
 colorTo: red
-sdk: docker
-app_port: 8501
-tags:
-- streamlit
+sdk: streamlit
+sdk_version: 1.39.0
+app_file: app.py
 pinned: false
-short_description: Streamlit template space
-license: apache-2.0
 ---
 
-# Welcome to Streamlit!
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/raihan14320/mental-health-predictor)
 
-Edit `/src/streamlit_app.py` to customize this app to your heart's desire. :heart:
+# Mental Health Predictor 🧠
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+This project predicts mental health status from text using an ensemble of **Mental-BERT** and **RoBERTa**.
+
+## How to Run
+Click the badge above to try the live demo!
